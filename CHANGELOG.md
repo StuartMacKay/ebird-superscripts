@@ -16,3 +16,6 @@ and by implication, [Semantic Versioning](http://semver.org/).
   
 - Added a script to hide checklists from certain observers from the 
   Recent Visits page for a hotspot or region.
+
+- Added a script to hide checklist where the location name includes
+  latitude and longitude.
