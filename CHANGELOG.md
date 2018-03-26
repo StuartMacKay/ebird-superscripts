@@ -13,3 +13,6 @@ and by implication, [Semantic Versioning](http://semver.org/).
   
 - Added script to hide the table on the checklist page that shows the 
   counts for each age and sex.
+  
+- Added a script to hide checklists from certain observers from the 
+  Recent Visits page for a hotspot or region.
