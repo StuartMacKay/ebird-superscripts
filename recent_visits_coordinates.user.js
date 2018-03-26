@@ -1,17 +1,16 @@
 // ==UserScript==
 // @name     Recent visits location coordinates
-// @namespace https://github.com/ProjectBabbler/ebird/
 // @version  1.0.0
-// @grant    none
+// @description Hide checklists where the location name contains latitude and longitude
 // @include  https://ebird.org/region/*/activity*
 // @include  https://ebird.org/hotspot/*/activity*
 // @require  https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js
-// @description Hide checklists where the location name contains latitude and longitude
-// @copyright 2018 Stuart MacKay (https://github.com/ProjectBabbler/ebird-superscripts)
-// @homepage https://github.com/ProjectBabbler/ebird-superscripts
+// @namespace https://github.com/ProjectBabbler/ebird/
 // @author smackay
+// @copyright 2018 Stuart MacKay (https://github.com/ProjectBabbler/ebird-superscripts)
 // @license MIT
-// @updateURL https://openuserjs.org/meta/smackay/recent_visits_coordinates.meta.js
+// @homepage https://github.com/ProjectBabbler/ebird-superscripts
+// @grant    none
 // ==/UserScript==
 
 (function() {

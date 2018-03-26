@@ -1,16 +1,15 @@
 // ==UserScript==
 // @name     Checklist Species counts first
-// @namespace https://github.com/ProjectBabbler/ebird/
 // @version  1.0.0
-// @grant    none
+// @description Split the species list and show those species with counts first
 // @include  https://ebird.org/view/checklist/*
 // @require  https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js
-// @description Split the species list and show those species with counts first
-// @copyright 2018 Stuart MacKay (https://github.com/ProjectBabbler/ebird-superscripts)
-// @homepage https://github.com/ProjectBabbler/ebird-superscripts
+// @namespace https://github.com/ProjectBabbler/ebird/
 // @author smackay
+// @copyright 2018 Stuart MacKay (https://github.com/ProjectBabbler/ebird-superscripts)
 // @license MIT
-// @updateURL https://openuserjs.org/meta/smackay/checklist_counts_first.meta.js
+// @homepage https://github.com/ProjectBabbler/ebird-superscripts
+// @grant    none
 // ==/UserScript==
 
 (function() {
