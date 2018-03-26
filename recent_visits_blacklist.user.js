@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name     Recent visits observer blacklist
 // @namespace https://github.com/ProjectBabbler/ebird/
-// @version  2.0.0
+// @version  2.0.1
 // @grant    none
 // @include  https://ebird.org/region/*/activity*
 // @include  https://ebird.org/hotspot/*/activity*
@@ -17,8 +17,6 @@
 (function() {
     'use strict';
 
-    var name;
-
     function hideObserver(name) {
         $('td[headers="observer"]').each(function () {
             if (name ===  $(this).data('observer')) {
@@ -28,8 +26,8 @@
     }
 
     $('td[headers="observer"]').each(function () {
-        name = $(this).contents().text().trim().replace(/\s{2,}/, ' ');
-        $(this).prepend('<span style="font-weight: normal;" title="Hide all checklists from' + name + '">x</span> ');
+        let name = $(this).contents().text().trim().replace(/\s{2,}/, ' ');
+        $(this).prepend('<span style="font-weight: normal;" title="Hide all checklists from ' + name + '">x</span> ');
         $(this).data('observer', name);
         $(this).children(":first").click(function () {
             hideObserver(name);
