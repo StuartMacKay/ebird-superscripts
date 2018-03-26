@@ -9,6 +9,7 @@
 // @copyright 2018 Stuart MacKay (https://github.com/ProjectBabbler/ebird-superscripts)
 // @homepage https://github.com/ProjectBabbler/ebird-superscripts
 // @author smackay
+// @license MIT
 // @updateURL https://openuserjs.org/meta/smackay/checklist_counts_first.meta.js
 // ==/UserScript==
 
