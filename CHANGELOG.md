@@ -10,3 +10,6 @@ and by implication, [Semantic Versioning](http://semver.org/).
 - Added script to split the species list on a checklist into two tables. 
   The species with counts are shown first followed by those species where 
   only the presence was noted.
+  
+- Added script to hide the table on the checklist page that shows the 
+  counts for each age and sex.
