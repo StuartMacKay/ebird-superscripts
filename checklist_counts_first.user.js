@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name     Checklist Species counts first
+// @name     Checklist species counts first
 // @version  1.0.1
 // @description Split the species list and show those species with counts first
 // @include  https://ebird.org/view/checklist/*
