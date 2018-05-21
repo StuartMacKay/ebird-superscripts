@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [PEP440](https://www.python.org/dev/peps/pep-0440/)
 and by implication, [Semantic Versioning](http://semver.org/).
 
+## Current
+### Changed
+- Improved the description of the scripts in the README.
+- Added screenshots for the checklist_hide_age_table.user.js script.
+
 ## [0.2] - 2018-05-21
 ### Added
 - Added a script to show visited links to checklists as dark orange.
