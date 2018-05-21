@@ -51,7 +51,7 @@ This opens each checklist in a new tab. This means you avoid having to reload th
 Recent Visits page when you click the back button. which can take a long time.
 
 
-#### recent_visits_coordinates.user.js** 
+#### recent_visits_coordinates.user.js 
 This script hides checklists which have the latitude and longitude of a location 
 in the title. These checklists are usually for one-off visits, typically for a 
 bird seen while driving along a road. Hiding these cuts the clutter on the Recent 
