@@ -103,8 +103,8 @@ to leave out.
 All the scripts can be found on [OpenUserJS](https://openuserjs.org/) when you
 do a search with the [eBird](https://openuserjs.org/?q=eBird) keyword. 
 
-You can also find the same scripts on [GreasyFork](https://greasyfork.org) again, use 
-[eBird](https://greasyfork.org/en/scripts?q=eBird) as a search keyword
+You can also find the same scripts on [GreasyFork](https://greasyfork.org) when
+you list all the scripts for the [eBird](https://greasyfork.org/en/scripts/by-site/ebird.org) site.
 
 ## License
 
