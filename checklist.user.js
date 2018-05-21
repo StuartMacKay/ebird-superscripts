@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     Checklists
-// @version  1.0.2
+// @version  1.0.0
 // @description Various changes to make checklist pages more readable
 // @include  https://ebird.org/view/checklist/*
 // @include  https://ebird.org/*/view/checklist/*
