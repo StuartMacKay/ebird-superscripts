@@ -10,6 +10,7 @@ and by implication, [Semantic Versioning](http://semver.org/).
 - Improved the description of the scripts in the README.
 - Added screenshots for the checklist_hide_age_table.user.js script.
 - Cursor is now set to default when mousing over the 'x' to hide users.
+- Counts first script now runs when viewing a checklist.
 
 ## [0.2] - 2018-05-21
 ### Added

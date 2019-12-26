@@ -2,6 +2,7 @@
 // @name     Checklist species counts first
 // @version  1.0.1
 // @description Split the species list and show those species with counts first
+// @include  https://ebird.org/checklist/*
 // @include  https://ebird.org/view/checklist/*
 // @include  https://ebird.org/*/view/checklist/*
 // @require  https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js
