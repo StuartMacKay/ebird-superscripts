@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     Recent visit checklists in new tab
-// @version  1.0.0
+// @version  1.0.1
 // @description Links on the Recent Visits page opens each checklist in a new tab.
 // @include  https://ebird.org/region/*/activity*
 // @include  https://ebird.org/hotspot/*/activity*

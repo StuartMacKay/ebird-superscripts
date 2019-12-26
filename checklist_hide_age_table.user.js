@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     Checklist hide age table
-// @version  1.0.2
+// @version  1.0.3
 // @description Hide the table showing the counts for age and sex
 // @include  https://ebird.org/checklist/*
 // @include  https://ebird.org/view/checklist/*

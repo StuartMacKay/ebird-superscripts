@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     Restore visited checklists links colour
-// @version  1.0.0
+// @version  1.0.1
 // @description Change the colour of links to checklists you have seen.
 // @include  https://ebird.org/region/*/activity*
 // @include  https://ebird.org/hotspot/*/activity*

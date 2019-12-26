@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     Recent visits location coordinates
-// @version  1.0.0
+// @version  1.0.1
 // @description Hide checklists where the location name contains latitude and longitude
 // @include  https://ebird.org/region/*/activity*
 // @include  https://ebird.org/hotspot/*/activity*

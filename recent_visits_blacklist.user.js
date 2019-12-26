@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     Recent visits observer blacklist
-// @version  2.0.2
+// @version  2.0.3
 // @description Hide checklists from selected observers on the recent visits page for a region or hotspot
 // @include  https://ebird.org/region/*/activity*
 // @include  https://ebird.org/hotspot/*/activity*

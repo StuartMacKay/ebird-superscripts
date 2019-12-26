@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     Recent Visits
-// @version  1.0.0
+// @version  1.0.1
 // @description Various fixes to make the Recent Visits page usable.
 // @include  https://ebird.org/region/*/activity*
 // @include  https://ebird.org/hotspot/*/activity*

@@ -6,6 +6,8 @@ This project adheres to [PEP440](https://www.python.org/dev/peps/pep-0440/)
 and by implication, [Semantic Versioning](http://semver.org/).
 
 ## Current
+
+## [0.3] - 2019-12-26
 ### Changed
 - Improved the description of the scripts in the README.
 - Added screenshots for the checklist_hide_age_table.user.js script.

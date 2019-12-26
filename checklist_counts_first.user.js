@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     Checklist species counts first
-// @version  1.0.1
+// @version  1.0.2
 // @description Move species with only presence noted to the end of the checklist
 // @include  https://ebird.org/checklist/*
 // @include  https://ebird.org/view/checklist/*
