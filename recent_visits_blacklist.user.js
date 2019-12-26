@@ -26,7 +26,7 @@
 
     $('td[headers="observer"]').each(function () {
         let name = $(this).contents().text().trim().replace(/\s{2,}/, ' ');
-        $(this).prepend('<span style="font-weight: normal;" title="Hide all checklists from ' + name + '">x</span> ');
+        $(this).prepend('<span style="font-weight: normal; cursor: default" title="Hide all checklists from ' + name + '">x</span> ');
         $(this).attr('data-observer', name);
         $(this).children(":first").click(function () {
             hideObserver(name);
