@@ -25,29 +25,26 @@
 (function() {
   'use strict';
 
-  // Move species where only presences was noted to another table at the end
-  // of the checklist.
+  // Move species where only presence was noted to the end of the checklist.
   // This performs the same function as the checklists_counts_first script.
 
-  var presence_list;
-  var count;
+  let count;
 
-  $('.d-spp-wrap').parent().append('<div class="d-spp-wrap" style="margin-top: 2em;"><table id="spp-presence" class="d-spp"><tbody></tbody></table></div>');
-
-  presence_list = $('#spp-presence tbody');
-
-  $('.se-count').each(function () {
-    count = $(this).contents().text().trim();
+  $('.Observation-numberObserved').each(function () {
+    count = $(this).find('span span:last-child').contents().text().trim();
     if (count === 'X') {
-      $(this).closest('.spp-entry').appendTo(presence_list);
+      $(this).closest('li').appendTo('main#list > ol');
     }
   });
 
   // Hide the age & sex table for each species.
   // This performs the same function as the checklists_hide_age_table script.
 
-  $('.sd-data-age-sex').each(function () {
-    $(this).parent().addClass('hidden');
+  $('.Observation-meta-item-label').each(function () {
+    count = $(this).contents().text().trim();
+    if (count === 'Age & Sex:') {
+      $(this).parent().addClass('is-visuallyHidden');
+    }
   });
 
 })();

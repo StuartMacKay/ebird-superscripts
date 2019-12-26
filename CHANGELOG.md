@@ -11,6 +11,7 @@ and by implication, [Semantic Versioning](http://semver.org/).
 - Added screenshots for the checklist_hide_age_table.user.js script.
 - Cursor is now set to default when mousing over the 'x' to hide users.
 - Counts first script now runs when viewing a checklist.
+- Age & Sex table is now hidden in new page layout.
 
 ## [0.2] - 2018-05-21
 ### Added

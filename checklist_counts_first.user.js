@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name     Checklist species counts first
 // @version  1.0.1
-// @description Split the species list and show those species with counts first
+// @description Move species with only presence noted to the end of the checklist
 // @include  https://ebird.org/checklist/*
 // @include  https://ebird.org/view/checklist/*
 // @include  https://ebird.org/*/view/checklist/*
@@ -15,20 +15,15 @@
 // ==/UserScript==
 
 (function() {
-    'use strict';
+  'use strict';
 
-    var presence_list;
-    var count;
+  let count;
 
-    $('.d-spp-wrap').parent().append('<div class="d-spp-wrap" style="margin-top: 2em;"><table id="spp-presence" class="d-spp"><tbody></tbody></table></div>');
-
-    presence_list = $('#spp-presence tbody');
-
-    $('.se-count').each(function () {
-        count = $(this).contents().text().trim();
-        if (count === 'X') {
-            $(this).closest('.spp-entry').appendTo(presence_list);
-        }
-    });
+  $('.Observation-numberObserved').each(function () {
+    count = $(this).find('span span:last-child').contents().text().trim();
+    if (count === 'X') {
+      $(this).closest('li').appendTo('main#list > ol');
+    }
+  });
 
 })();

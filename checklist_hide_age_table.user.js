@@ -17,8 +17,12 @@
 (function() {
     'use strict';
 
-    $('.sd-data-age-sex').each(function () {
-        $(this).parent().addClass('hidden');
-    });
+  $('.Observation-meta-item-label').each(function () {
+    count = $(this).contents().text().trim();
+    if (count === 'Age & Sex:') {
+      console.log(count);
+      $(this).parent().addClass('is-visuallyHidden');
+    }
+  });
 
 })();
