@@ -5,7 +5,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 This project adheres to [PEP440](https://www.python.org/dev/peps/pep-0440/)
 and by implication, [Semantic Versioning](http://semver.org/).
 
-## Current
+## [0.4] - 2020-10-01
+### Changed
+- Consolidated the scripts into a single one for each page.
+- Updated the recent visits script for the Fall 2020 redesign.
 
 ## [0.3] - 2019-12-26
 ### Changed
